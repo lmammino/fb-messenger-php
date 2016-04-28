@@ -36,7 +36,7 @@ class FbBotApp
     /**
      * Send Message
      *
-     * @param Message $message
+     * @param Messages\Message $message
      * @return mixed
      */
     public function send($message)
@@ -62,8 +62,8 @@ class FbBotApp
     /**
      * Request to API
      *
-     * @param $url Url
-     * @param $data Data
+     * @param string $url
+     * @param array $data
      * @param string $type Type of request (GET|POST)
      * @return array
      */
